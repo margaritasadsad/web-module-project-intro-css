@@ -51,50 +51,125 @@ blockquote, q {
 html{
     font-size: 62.5%;
 }
-
 body{
     font-size: 1.6rem;
     line-height: 1.5;
     color: #4F4F4F;
     font-family: 'Roboto Mono', monospace;
-}
 
+}
 h1 {
     font-family: 'Chelsea Market', cursive;
+    font-size: 8rem;
 }
-a{
+h2 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
+}
+.right p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
+}
+a {
     font-family: 'Roboto Mono', monospace;
     text-decoration: none;
 }
-span{
+span {
     font-weight: bold;
 }
-section{
+section {
     padding: 4% 0;
 }
 /*header section styles*/
-
-nav{
+nav {
     padding:2% 0;
+    margin-top: 2%;
 }
-nav a{
+nav a {
     display: inline-block;
     padding: 1% 0;
     width: 10%;
-    border-radius: 10px;
+    border-radius: 12px;
     text-align: center;
-    color: pink;
+    color: white;
+    font-size: 2rem;
 }
-
-.orange{
+a[href*="orange"] {
     background-color: #FF764E;
     margin-left: 10%;
 }
-.blue{
+a[href*="blue"] {
     background-color: #5ED3EB;
-    margin: 0 24%
+    margin: 0 24%;
 }
-.yellow{
+a[href*=yellow] {
     background-color: #FFCD69;
-    margin-right: 10%
+    margin-right: 10%;
+}
+/*Titles Section Styles*/
+.titles {
+    text-align:center;
+    position:relative;
+}
+.left, .right {
+    display:inline-block;
+}
+.left {
+    width:30%;
+    margin-left:5%;
+}
+.left img {
+    border-radius:50%;
+}
+.right {
+    width:55%;
+    margin-left: 5%;
+    color: black;
+    
+}
+.right div {
+    position:absolute;
+    top:40%;
+}
+.bottom {
+    background-color:#DDB9A3;
+    margin: 5%;
+    padding: 15px;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 3rem;
+   
+}
+.yikes img {
+    background-image: url("assets/footer_img.jpg");
+    width: 100%;
+    padding-top: 10px;
+}
+.picture img {
+    width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image img {
+    width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+.image p {
+    color: black;
+    text-align: center;
+    line-height: 1;
+    letter-spacing: 0;
+}
+.picture p{
+    color: black;
+    text-align: center;
+    line-height: 1;
+    letter-spacing: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+footer {
+    background: #F9E7DC;
 }
