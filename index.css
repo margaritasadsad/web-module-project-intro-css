@@ -138,12 +138,6 @@ a[href*=yellow] {
     color: white;
     font-family: 'Roboto Mono', monospace;
     font-size: 3rem;
-   
-}
-.yikes img {
-    background-image: url("assets/footer_img.jpg");
-    width: 100%;
-    padding-top: 10px;
 }
 .picture img {
     width: 15%;
@@ -171,5 +165,10 @@ a[href*=yellow] {
     font-family: 'Roboto Mono', monospace;
 }
 footer {
-    background: #F9E7DC;
+    background-color: #F9E7DC;
+}
+
+.yikes {
+    background-image: url("assets/footer_img.jpg");
+    width: 100%;
 }
